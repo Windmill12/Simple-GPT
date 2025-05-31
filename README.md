@@ -6,6 +6,8 @@ The project includes the following files:
 3. pretrain.py: pretrains the model with preprocessed dataset.
 4. sft.py: finetune the model to make it a chatbot.
 5. utils.py: includes some helper functions for example trainning functions and samplin functions.
+
+
 Before pretrainning, please download text dataset from huggingface. Good text datasets include Wikipedia, Redpajama, e.t.c..
 The model is finetuned with the ultrachat-200k dataset.
 The pretrainning is done with a RTX 4060Ti 16G GPU and takes roughly a month to finish. Then the finetune procedure is followed. After these, you could obtain a simple chatbot.
